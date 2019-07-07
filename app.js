@@ -26,6 +26,7 @@ while (weeklyCarbs.length !== 7) {
 
 for (let i = 0; i < 7; i++) {
   let div = document.createElement("div");
+  div.classList.add("meal");
   div.innerHTML = `${weekdays[i]}: ${weeklyProteins[i]} och ${weeklyCarbs[i]}`;
   mainDiv.appendChild(div);
 }

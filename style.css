@@ -1,10 +1,25 @@
-* {
+body {
+  margin: 0;
+  padding: 0;
   color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+  background-image: url(images/background.jpeg);
+  background-size: cover;
 }
 
 #main {
-  margin: 5% 30%;
-  text-align: center;
-  background-color: #AAA;
-  border-radius: 10px;
+  padding: 1em;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.meal {
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+  margin-bottom: 0.2em;
+  padding: 0.4em;
+  border-radius: 0.4em;
+  width: fit-content;
 }
